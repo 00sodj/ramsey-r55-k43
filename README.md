@@ -32,6 +32,7 @@ Self-contained computational proof, extremal graph archive, and Lean 4 formal ve
 ```text
 release_bundle/
 ├── README.md                         # Project overview, build/run guide, and citation
+├── LICENSE                           # Dual license note (MIT code / CC-BY-4.0 data & text)
 ├── CITATION.cff                      # Citation File Format 1.2.0 metadata (GitHub cite widget)
 ├── .zenodo.json                      # Zenodo archival & DOI metadata (MIT / CC-BY-4.0)
 ├── SHA256SUMS.txt                    # Full SHA-256 cryptographic checksum manifest
@@ -51,6 +52,7 @@ release_bundle/
 │   └── lean-toolchain                # Toolchain pin: leanprover/lean4:v4.36.0
 ├── paper/
 │   ├── ramsey_k43_report.tex         # arXiv/journal LaTeX manuscript
+│   ├── ramsey_k43_report.pdf         # Compiled 11-page camera-ready manuscript PDF
 │   ├── references.bib                # Standard BibTeX bibliography
 │   ├── ramsey_k43_report.bbl         # Compiled bibliography entries
 │   └── COVER_LETTER.md               # Journal submission cover letter
