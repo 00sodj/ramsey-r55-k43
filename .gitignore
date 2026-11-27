@@ -1,0 +1,26 @@
+# Compiled binaries & build artifacts
+*.exe
+*.o
+*.obj
+*.out
+anatomy_canonical_e2
+prove_local_rigidity
+census_k42_656
+
+# Generated proof run logs (reproducible from src/)
+canonical_e2_anatomy.txt
+local_rigidity_proof_log.txt
+census_k42_656_report.txt
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.blg
+
+# Python cache
+__pycache__/
+*.pyc

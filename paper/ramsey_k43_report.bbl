@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+
+\bibitem{AngeltveitMcKay2018}
+Vigleik Angeltveit and Brendan~D. McKay.
+\newblock {$R(5,5) \le 48$}.
+\newblock {\em Journal of Graph Theory}, 89(1):5--13, 2018.
+
+\bibitem{AngeltveitMcKay2024}
+Vigleik Angeltveit and Brendan~D. McKay.
+\newblock {$R(5,5) \le 46$}.
+\newblock arXiv preprint arXiv:2409.15709 [math.CO], 2024.
+
+\bibitem{MouraUllrich2021}
+Leonardo de~Moura and Sebastian Ullrich.
+\newblock The {L}ean 4 theorem prover and programming language.
+\newblock In {\em Automated Deduction -- CADE 28}, volume 12699 of {\em Lecture
+  Notes in Computer Science}, pages 625--635. Springer, 2021.
+
+\bibitem{Erdos1962Multiplicity}
+Paul Erd{\H{o}}s.
+\newblock On the number of complete subgraphs contained in certain graphs.
+\newblock {\em Magyar Tudom{\'a}nyos Akad{\'e}mia Matematikai Kutat{\'o}
+  Int{\'e}zet{\'e}nek K{\"o}zlem{\'e}nyei}, 7:459--464, 1962.
+
+\bibitem{ErdosSzekeres1935}
+Paul Erd{\H{o}}s and George Szekeres.
+\newblock A combinatorial problem in geometry.
+\newblock {\em Compositio Mathematica}, 2:463--470, 1935.
+
+\bibitem{Exoo1989}
+Geoffrey Exoo.
+\newblock A lower bound for {$R(5,5)$}.
+\newblock {\em Journal of Graph Theory}, 13(1):97--98, 1989.
+
+\bibitem{McKayRadziszowski1995}
+Brendan~D. McKay and Stanis{\l}aw~P. Radziszowski.
+\newblock {$R(4,5) = 25$}.
+\newblock {\em Journal of Graph Theory}, 19(3):309--322, 1995.
+
+\bibitem{McKayRadziszowski1997}
+Brendan~D. McKay and Stanis{\l}aw~P. Radziszowski.
+\newblock Subgraph counting identities and {R}amsey numbers.
+\newblock {\em Journal of Combinatorial Theory, Series B}, 69(2):193--209,
+  1997.
+
+\bibitem{RadziszowskiSurvey}
+Stanis{\l}aw~P. Radziszowski.
+\newblock Small {R}amsey numbers.
+\newblock {\em The Electronic Journal of Combinatorics}, DS1, 2024.
+\newblock Dynamic Survey, Revision 17.
+
+\end{thebibliography}

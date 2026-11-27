@@ -1,0 +1,28 @@
+{
+  "title": "Critical Bi-Pyramid Rigidity, Exact 42-Bit Hypergraph Stitching over the 656 (5,5;42) Catalog, and Formal Certification of M(5,5;43) <= 2",
+  "upload_type": "software",
+  "publication_date": "2026-11-27",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Yin, Zihan",
+      "affiliation": "University of Electronic Science and Technology of China"
+    }
+  ],
+  "description": "Self-contained C++17 computer-assisted proof suite, zero-dependency Python 3 referee verifier, extremal graph catalogs (witness_k43_e2_catalog.txt and k42_pool_656.txt), and dependency-free Lean 4 kernel certificate (certificate_m55_43.lean) establishing: (1) the unconditional constructive Ramsey multiplicity upper bound M(5,5;43) <= 2 and exact |Aut| = 2 reflection anatomy of the two canonical critical bi-pyramids G*_1 and G*_2; (2) exact local rigidity over the 2^231 core (k=22) and 252,083,534 bounded Hamming ball states; and (3) a zero-cutoff 42-bit hypergraph stitching proof that min E_{K5}^*(G_42) = 2 across all 656 non-isomorphic oriented (5,5;42) extremal graphs.",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Ramsey number R(5,5)",
+    "Ramsey multiplicity M(5,5;43)",
+    "(5,5;42)-graphs",
+    "Extremal combinatorics",
+    "Bit-parallel branch-and-bound",
+    "Computer-assisted proof",
+    "Lean 4 formal verification",
+    "05C55",
+    "05D10",
+    "68V15"
+  ],
+  "notes": "Source code is released under the MIT License; graph datasets and manuscript materials are released under CC-BY-4.0. Repository: https://github.com/00sodj/ramsey-r55-k43"
+}

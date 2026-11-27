@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "Critical Bi-Pyramid Rigidity, Exact 42-Bit Hypergraph Stitching over the 656 (5,5;42) Catalog, and Formal Certification of M(5,5;43) <= 2"
+message: "If you use this software, dataset, or Lean 4 formal certificate in your research, please cite it using the metadata below."
+type: software
+version: "1.0.0"
+date-released: "2026-11-27"
+license: MIT
+authors:
+  - family-names: "Yin"
+    given-names: "Zihan"
+    affiliation: "University of Electronic Science and Technology of China"
+    email: "2024080910001@std.uestc.edu.cn"
+repository-code: "https://github.com/00sodj/ramsey-r55-k43"
+# doi: "10.5281/zenodo.XXXXXXX"
+abstract: >-
+  Reproducibility suite, extremal graph datasets, and standalone Lean 4 kernel
+  certificate establishing the constructive Ramsey multiplicity upper bound
+  M(5,5;43) <= 2, exact automorphism and local rigidity theorems (k=22 core and
+  252-million-state bounded Hamming ball) for the two canonical critical
+  bi-pyramids G*_1 and G*_2, and a complete zero-truncation 42-bit hypergraph
+  stitching census proving min E_{K5}^*(G_42) = 2 across all 656 non-isomorphic
+  oriented (5,5;42) extremal graphs.
+keywords:
+  - "Ramsey number R(5,5)"
+  - "Ramsey multiplicity"
+  - "Extremal combinatorics"
+  - "Computer-assisted proof"
+  - "Branch and bound"
+  - "Lean 4 formal verification"
+  - "MSC 05C55"
+  - "MSC 05D10"
+  - "MSC 68V15"
+preferred-citation:
+  type: article
+  title: "Critical Bi-Pyramid Rigidity, Exact 42-Bit Hypergraph Stitching over the 656 (5,5;42) Catalog, and Formal Certification of M(5,5;43) <= 2"
+  authors:
+    - family-names: "Yin"
+      given-names: "Zihan"
+      affiliation: "University of Electronic Science and Technology of China"
+  year: 2026
+  journal: "arXiv preprint [math.CO]"
+  notes: "MSC 2020: 05C55, 05D10, 68V15, 68R10"
