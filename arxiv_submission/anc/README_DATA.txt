@@ -10,7 +10,7 @@ MSC 2020    : 05C55, 05D10 (Primary); 68V15, 68R10 (Secondary)
 
 1. OVERVIEW OF COMPANION REPRODUCIBILITY ARTIFACTS
 ------------------------------------------------------------------------------
-The full reproducibility archive (also available at https://github.com/00sodj/ramsey-r55-k43)
+The full reproducibility archive (GitHub: https://github.com/00sodj/ramsey-r55-k43 | Zenodo DOI: https://doi.org/10.5281/zenodo.24595135)
 provides three independent layers of machine verification:
 
   (a) Pure Python 3 Referee Verifier (`verify_standalone.py`):

@@ -1,5 +1,8 @@
 # Critical Bi-Pyramid Rigidity, 656-Class `(5,5;42)` Stitching Census, and Formal Certification of `M(5,5;43) <= 2`
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24595135.svg)](https://doi.org/10.5281/zenodo.24595135)
+
+
 Self-contained computational proof, extremal graph archive, and Lean 4 formal verification bundle accompanying the manuscript:
 
 > **Critical Bi-Pyramid Rigidity, Exact 42-Bit Hypergraph Stitching over the 656 `(5,5;42)` Catalog, and Formal Certification of `M(5,5;43) <= 2`**  
@@ -128,7 +131,8 @@ Expected output from `#print axioms`: every theorem depends solely on `[propext]
   title        = {Critical Bi-Pyramid Rigidity, Exact 42-Bit Hypergraph Stitching over the 656 {(5,5;42)} Catalog, and Formal Certification of {$M(5,5;43) \le 2$}},
   year         = {2026},
   howpublished = {arXiv:math.CO Preprint and Reproducibility Archive, University of Electronic Science and Technology of China},
-  url          = {https://github.com/00sodj/ramsey-r55-k43},
+  doi          = {10.5281/zenodo.24595135},
+  url          = {https://doi.org/10.5281/zenodo.24595135},
   note         = {MSC 2020: 05C55, 05D10, 68V15, 68R10}
 }
 ```

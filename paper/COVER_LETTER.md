@@ -24,7 +24,7 @@ Combining $>8.5 \times 10^{10}$ bit-parallel incremental evaluations, exact bran
    - *Global Census over $\mathcal{M}_{656}$:* Introducing an admissible vertex-disjoint Pigeonhole Triple lower bound ($L_1 + L_3$, Algorithm 1), we solve the $42$-bit $4$-uniform hypergraph single-vertex extension problem to $100\%$ global optimality (zero node cutoff) across all $656$ non-isomorphic oriented ($328$ unoriented) $(5,5;42)$ extremal graphs $\mathcal{M}_{656}$, proving unconditionally that $\min_{G_{42} \in \mathcal{M}_{656}} E_{K_5}^*(G_{42}) = 2$ (with zero classes achieving $E_{K_5}^* \in \{0,1\}$). Careful attention is paid to separating unconditional theorems from conditional deductions: as stated explicitly in Corollary 4.3 and Remark 4.4, under the McKay--Radziszowski completeness hypothesis for $\mathcal{M}_{656}$, single-vertex puncturing implies both $R(5,5) = 43$ and the exact equality $M(5,5;43) = 2$.
 
 3. **Zero-Dependency Lean 4 Kernel Certificate and 11-Second Standalone Referee Verification (Theorem 5.1):**  
-   To ensure effortless, bulletproof refereeing, our companion reproducibility archive (`https://github.com/00sodj/ramsey-r55-k43`) includes:
+   To ensure effortless, bulletproof refereeing, our companion reproducibility archive (`https://github.com/00sodj/ramsey-r55-k43`, Zenodo DOI `10.5281/zenodo.24595135`) includes:
    - `formal/certificate_m55_43.lean`: a standalone, zero-dependency Lean 4 (`v4.36.0`) formal proof certifying $R(5,5) > 42$ and $M(5,5;43) \le 2$ via pure kernel definitional reduction (`by rfl` in $34.08\text{ s}$, with zero `sorry` and zero `native_decide` compiler-trust axioms);
    - `verify_standalone.py`: a pure Python 3 standard-library script (zero external packages) that independently verifies in **11.2 seconds** all critical $E_{K_5}=2$ bi-pyramids, all $656$ zero-$K_5$ mother graphs and their Weisfeiler--Leman distinctness, and bit-for-bit identity with the Lean 4 certificate;
    - `src/*.cpp`: clean, zero-dependency C++17 proof engines compiling with zero warnings under `-Wall -Wextra -Werror`.
@@ -37,4 +37,4 @@ Sincerely,
 University of Electronic Science and Technology of China (UESTC)  
 Chengdu, China  
 Email: `2024080910001@std.uestc.edu.cn`  
-Reproducibility Archive: `https://github.com/00sodj/ramsey-r55-k43`
+Reproducibility Archive: `https://github.com/00sodj/ramsey-r55-k43` (Zenodo DOI: `https://doi.org/10.5281/zenodo.24595135`)

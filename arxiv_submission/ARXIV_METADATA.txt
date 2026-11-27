@@ -24,7 +24,7 @@ cs.DM (Discrete Mathematics), cs.LO (Logic in Computer Science)
 G.2.2; F.4.1
 
 [Comments]
-13 pages, 4 tables, 1 algorithm. Accompanied by a zero-dependency Python 3 standalone referee verification script (~11s runtime) and a dependency-free Lean 4 formal certificate (`certificate_m55_43.lean`, verified via pure `by rfl` kernel reduction without `sorry` or `native_decide`)
+13 pages, 4 tables, 1 algorithm. Accompanied by a zero-dependency Python 3 standalone referee verification script (~11s runtime) and a dependency-free Lean 4 formal certificate (`certificate_m55_43.lean`, verified via pure `by rfl` kernel reduction without `sorry` or `native_decide`). Code, datasets, and certificates archived at https://doi.org/10.5281/zenodo.24595135
 
 [Abstract]
 Determining the classical diagonal Ramsey number $R(5,5)$ ($43 \le R(5,5) \le 46$) and the Ramsey multiplicity $M(5,5;43)$---the minimum number of monochromatic $K_5$ subgraphs across all $2$-edge-colorings of $K_{43}$---is a longstanding challenge in extremal combinatorics. We report a five-stage computer-assisted investigation integrating $64$-bit bit-parallel incremental search ($>8.5 \times 10^{10}$ flip evaluations on a $16$-core AMD Ryzen 9 7940HX), $K_4$-load spatial variance fitness shaping, bi-level trust-region co-evolution over $(5,5;42)$ mother graphs, chained unit-propagation exact branch-and-bound (B&B), and Lean 4 formal kernel verification.

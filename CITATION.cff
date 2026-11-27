@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "Critical Bi-Pyramid Rigidity, Exact 42-Bit Hypergraph Stitching over the 656 (5,5;42) Catalog, and Formal Certification of M(5,5;43) <= 2"
 message: "If you use this software, dataset, or Lean 4 formal certificate in your research, please cite it using the metadata below."
 type: software
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-27"
 license: MIT
 authors:
@@ -11,7 +11,7 @@ authors:
     affiliation: "University of Electronic Science and Technology of China"
     email: "2024080910001@std.uestc.edu.cn"
 repository-code: "https://github.com/00sodj/ramsey-r55-k43"
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.24595135"
 abstract: >-
   Reproducibility suite, extremal graph datasets, and standalone Lean 4 kernel
   certificate establishing the constructive Ramsey multiplicity upper bound
